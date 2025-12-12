@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch A Sketch</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js" defer></script>
+</head>
+<body>
+
+  <h1>Etch A Sketch</h1>
+  <p>Click on a square you want to colour</p>
+
+  <div class="layout">
+
+  <div class="options">
+    <button id="Black">Black Mode</button>
+    <button id="Rainbow">Rainbow Mode</button>
+    <button id="Gradient">Gradient Mode</button>
+    <button id="Eraser">Eraser</button>
+    <button id="Clear">Clear</button>
+  </div>
+
+  <div class="right-side">
+    <input id="sizeInput" type="number" min="1" max="100" placeholder="Enter grid size (1-100)">
+    <button onclick="makeGrid()">Create Grid</button>
+
+    <div id="grid"></div>
+  </div>
+
+</div>
+
+</body>
+</html>
